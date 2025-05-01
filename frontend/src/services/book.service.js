@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://book-management-system-backend-960r.onrender.com/";
+const BASE_URL = "http://localhost:8000/api/books";
 
 export const getAllBooks = () => axios.get(BASE_URL);
 
